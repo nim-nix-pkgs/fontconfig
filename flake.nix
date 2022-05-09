@@ -7,14 +7,6 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs."fontconfig-master".dir   = "master";
-  inputs."fontconfig-master".owner = "nim-nix-pkgs";
-  inputs."fontconfig-master".ref   = "master";
-  inputs."fontconfig-master".repo  = "fontconfig";
-  inputs."fontconfig-master".type  = "github";
-  inputs."fontconfig-master".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."fontconfig-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
-  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
