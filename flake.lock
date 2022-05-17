@@ -33,11 +33,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1652391035,
-        "narHash": "sha256-gdhPqkNUIlqNg5SJezvGNYP6Qi2GcBqjKqseQ0qMC2I=",
+        "lastModified": 1652791454,
+        "narHash": "sha256-KwZnmClso4Z/b6DJgBRLMcxyl652S58a1fskn5dq+AE=",
         "owner": "nim-nix-pkgs",
         "repo": "fontconfig",
-        "rev": "431987264091f8ecbdf895dd6651e2c8a5e392c1",
+        "rev": "06aa72cb054fdc74286b2fdf0dad536054f771c3",
         "type": "github"
       },
       "original": {
